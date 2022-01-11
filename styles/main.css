@@ -5,4 +5,86 @@ body {
     font-size: 18px;
     font-family: 'Inconsolata', monospace;
     letter-spacing: 1px;
+    font-weight: 400;
+    color: bisque;
+}
+
+#wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    max-width: 600px;
+    height: 400px;
+    padding: 2em; 
+}
+
+form p {
+    margin: 18px;
+    font-size: 1em ;
+    line-height: 1.5em;
+}
+
+form fieldset{
+    margin-bottom: 28px;
+    padding: 0;
+    border:none;
+}
+
+form a.continue {
+    font-size: 1.3em;
+    background-color: beige;
+    color: darkolivegreen;
+    padding: .5em 1em;
+    text-decoration: none;
+    float:right;
+}
+
+form a.continue:hover, 
+form a.continue:focus{
+    background-color: tan;
+    color: red; 
+}
+
+button.reset{
+    background-color: transparent;
+    border: none;
+    color: antiquewhite;
+    font-family: 'Inconsolata', monospace;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button.rest:hover{
+    color:tan;
+
+}
+
+form label span {
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+    padding: 14px 12px;
+    border: 2px solid tan;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+form label:hover span, form label:focus span{
+    border: 2px solid tan;
+    background-color: whitesmoke;
+    color: darkgreen;
+}
+form input[type = radio]{
+    visibility: hidden;
+}
+
+
+form input [type = radio]:checked + span {
+    border: 2px solid tan; 
+    color:darkgreen
 }

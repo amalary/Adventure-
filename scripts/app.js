@@ -44,6 +44,8 @@ submit.addEventListener('mouseup', function() {
 
 function resetForm(){
     document.getElementById('Adventure').reset(); 
+    window.location.replace("./index.html");
+    return false;
 }
 
 // Creating answers from the story itself

@@ -74,7 +74,7 @@ form label span {
     border-radius: 25px;
 }
 
-form label:hover span, form label:focus span{
+span:hover, span:focus {
     border: 2px solid tan;
     background-color: whitesmoke;
     color: darkgreen;

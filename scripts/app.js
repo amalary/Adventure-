@@ -93,28 +93,28 @@ let storyTime = {
         },
     // Hufflepuff Path
     "1_d": {
-        "question":"You choose to be a part of the school of Gryffindor and your mates want to go out tonight. Do you...?",
+        "question":" Greetings to Hufflepuff we seem to be lost in Hogwarts choose a door you think will lead us to our quarters?",
         "answers":{
-            "m": "Stay in and prepare for classes tomorrow",
-            "n": "Join them on their excursion",
-            "o": "Convince them to stay in as well",
-            "p": "Tell the professors what is about happen"
+            "m": "Door 1",
+            "n": "Door 2",
+            "o": "Door 3",
+            "p": "Door 4"
         }
     },
         '2_m': {
-            "question": "You got a goodnights rest and arrived early for class"
+            "question": "Leads to everyone to the dinning area"
         },
     
         '2_n':{
-            "question": "You guys found the lost prisnoner of Azkaban"
+            "question": "Broom closet :("
         },
     
         '2_o': {
-            'question': "Turns out they did not listen and got into really bad trouble with the school teachers"
+            'question': "Successfully leads to the quarters and everyone can go to bed now !"
         }, 
     
         '2_p': {
-            "question": 'You tell the professor and they tell you not to tatle tale'
+            "question": 'You and everyone find themselves in the Chamber of Secrets'
         },
 };
 

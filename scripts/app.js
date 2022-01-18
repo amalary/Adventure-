@@ -16,7 +16,7 @@ let storyTime = {
             "d": "Hufflepuff"
         }
     },
-    // Gryffindor 
+    // Gryffindor Path
     "1_a": {
     "question":"You choose to be a part of the school of Gryffindor and your mates want to go out tonight. Do you...?",
     "answers":{
@@ -25,7 +25,25 @@ let storyTime = {
         "c": "Convince them to stay in as well",
         "d": "Tell the professors what is about happen"
     }
-}
+},
+    '2_a': {
+        "question": "You got a goodnights rest and arrived early for class"
+    },
+
+    '2_b':{
+        "questions": "You guys found the lost prisnoner of Azkaban"
+    },
+
+    '2_c': {
+        'question': "Turns out they did not listen and got into really bad trouble with the school teachers"
+    }, 
+
+    '2_d': {
+        "question": 'You tell the professor and they tell you not to tatle tale'
+    }
+
+
+
 };
 
 // Continue Link 
@@ -64,4 +82,7 @@ function populateForm(story){
 
 }
 
-populateForm('start'); 
+populateForm('start');
+
+
+

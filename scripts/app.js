@@ -43,7 +43,7 @@ let storyTime = {
     },
     // Slytherin Path 
     "1_b": {
-        "question":"So you dared to be part of Slytherin ? Are you brace enough to face Draco Malfoy in a wizard match ?",
+        "question":"So you dared to be part of Slytherin ? Are you brave enough to face Draco Malfoy in a wizard match ?",
         "answers":{
             "e": "Run and hide!",
             "f": "Of course I am !!!",
@@ -68,28 +68,28 @@ let storyTime = {
         },
     // Ravenclaw Path
     "1_c": {
-        "question":"You choose to be a part of the school of Gryffindor and your mates want to go out tonight. Do you...?",
+        "question":"Welcome to Ravenclaw what shall we do today ?",
         "answers":{
-            "i": "Stay in and prepare for classes tomorrow",
-            "j": "Join them on their excursion",
-            "k": "Convince them to stay in as well",
-            "l": "Tell the professors what is about happen"
+            "i": "Practice flying on our brooms",
+            "j": "Mix and Master potions",
+            "k": "Play Quidditch",
+            "l": "Explore the woods for monsters "
         }
     },
         '2_i': {
-            "question": "You got a goodnights rest and arrived early for class"
+            "question": "You happend to crash into a tree"
         },
     
         '2_j':{
-            "question": "You guys found the lost prisnoner of Azkaban"
+            "question": "Turns out you set the class on fire"
         },
     
         '2_k': {
-            'question': "Turns out they did not listen and got into really bad trouble with the school teachers"
+            'question': "You won the game by catching the golden snitch"
         }, 
     
         '2_l': {
-            "question": 'You tell the professor and they tell you not to tatle tale'
+            "question": 'Your soul was snatched by a Dementor'
         },
     // Hufflepuff Path
     "1_d": {

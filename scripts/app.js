@@ -31,7 +31,7 @@ let storyTime = {
     },
 
     '2_b':{
-        "questions": "You guys found the lost prisnoner of Azkaban"
+        "question": "You guys found the lost prisnoner of Azkaban"
     },
 
     '2_c': {
@@ -40,10 +40,82 @@ let storyTime = {
 
     '2_d': {
         "question": 'You tell the professor and they tell you not to tatle tale'
-    }
-
-
-
+    },
+    // Slytherin Path 
+    "1_b": {
+        "question":"So you dared to be part of Slytherin ? Are you brace enough to face Draco Malfoy in a wizard match ?",
+        "answers":{
+            "e": "Run and hide!",
+            "f": "Of course I am !!!",
+            "g": "Can I call Harry ?",
+            "h": "Tell the teachers!",
+        }
+    },
+        '2_e': {
+            "question": "You managed to get away safely without anyone noticing"
+        },
+    
+        '2_f':{
+            "question": "You actually win against him !!!"
+        },
+    
+        '2_g': {
+            'question': "Turns out Harry is away for the day so you're on your own :("
+        }, 
+    
+        '2_h': {
+            "question": 'They are surprised someone ratted on another student so early (smh)'
+        },
+    // Ravenclaw Path
+    "1_c": {
+        "question":"You choose to be a part of the school of Gryffindor and your mates want to go out tonight. Do you...?",
+        "answers":{
+            "i": "Stay in and prepare for classes tomorrow",
+            "j": "Join them on their excursion",
+            "k": "Convince them to stay in as well",
+            "l": "Tell the professors what is about happen"
+        }
+    },
+        '2_i': {
+            "question": "You got a goodnights rest and arrived early for class"
+        },
+    
+        '2_j':{
+            "question": "You guys found the lost prisnoner of Azkaban"
+        },
+    
+        '2_k': {
+            'question': "Turns out they did not listen and got into really bad trouble with the school teachers"
+        }, 
+    
+        '2_l': {
+            "question": 'You tell the professor and they tell you not to tatle tale'
+        },
+    // Hufflepuff Path
+    "1_d": {
+        "question":"You choose to be a part of the school of Gryffindor and your mates want to go out tonight. Do you...?",
+        "answers":{
+            "m": "Stay in and prepare for classes tomorrow",
+            "n": "Join them on their excursion",
+            "o": "Convince them to stay in as well",
+            "p": "Tell the professors what is about happen"
+        }
+    },
+        '2_m': {
+            "question": "You got a goodnights rest and arrived early for class"
+        },
+    
+        '2_n':{
+            "question": "You guys found the lost prisnoner of Azkaban"
+        },
+    
+        '2_o': {
+            'question': "Turns out they did not listen and got into really bad trouble with the school teachers"
+        }, 
+    
+        '2_p': {
+            "question": 'You tell the professor and they tell you not to tatle tale'
+        },
 };
 
 // Continue Link 
